@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+btFEM
+</name>
+</assembly>
+<members>
+<member name="P:btFEM.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:btFEM.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:btFEM.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:btFEM.frmbtFem.MultiplyMatrixWithVector(System.Double[0:,0:]@,System.Double[]@)">
+	<summary>
+ Multiplies matrix a by vector b and returns the product
+ </summary>
+	<param name="a"></param>
+	<param name="b"></param>
+	<returns></returns>
+</member><member name="M:btFEM.CST.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Initializes a new instance of CST element
+ </summary>
+	<param name="x1"></param>
+	<param name="y1"></param>
+	<param name="x2"></param>
+	<param name="y2"></param>
+	<param name="x3"></param>
+	<param name="y3"></param>
+	<param name="Thickness"></param>
+	<param name="ElasticityModulus"></param>
+	<param name="PoissonRatio"></param>
+</member><member name="M:btFEM.CST.getDetJ">
+	<summary>
+ Returns the determinant of the Jacobian
+ </summary>
+	<returns></returns>
+</member><member name="M:btFEM.CST.getB">
+	<summary>
+ Returns the [B] matrix
+ </summary>
+	<returns></returns>
+</member><member name="M:btFEM.CST.MultiplyMatrices(System.Double[0:,0:]@,System.Double[0:,0:]@)">
+	<summary>
+ Multiplies matrix a by b and returns the product
+ </summary>
+	<param name="a"></param>
+	<param name="b"></param>
+	<returns></returns>
+</member>
+</members>
+</doc>
